@@ -12,7 +12,7 @@ fetch('https://raw.githubusercontent.com/ydarissep/dex-core/main/index.html').th
 
 
     document.title = "HnS Dex"
-    document.getElementById("footerName").innerText = "Heart & Soul\nYdarissep Pokedex"
+    document.getElementById("footerName").innerText = "Heart & Soul\nUnofficial Pokedex"
     
 
     await fetch("https://raw.githubusercontent.com/ydarissep/dex-core/main/src/global.js").then(async response => {
